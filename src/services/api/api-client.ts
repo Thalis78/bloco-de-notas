@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://blocodenotasapi.onrender.com/notes",
+  baseURL: "http://localhost:3000/notas",
   headers: {
     "Content-Type": "application/json",
   },
